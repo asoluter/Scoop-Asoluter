@@ -18,7 +18,7 @@
             ]
         }
     },
-    "pre_install": [
+    "post_install": [
         "if (!(Test-Path \"$persist_dir\\session.xml\")) { New-Item \"$dir\\session.xml\" -Force | Out-Null }",
         "if (!(Test-Path \"$persist_dir\\userDefineLang.xml\")) { New-Item \"$dir\\userDefineLang.xml\" -Force | Out-Null }",
         "if (!(Test-Path \"$persist_dir\\nativeLang.xml\")) { New-Item \"$dir\\nativeLang.xml\" -Force | Out-Null }",
@@ -33,9 +33,6 @@
         "if ((Test-Path $file) -and $global) {",
         "    (Get-Content $file).Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') | Set-Content -Path $file -Encoding Ascii -Force",
         "}"
-    ],
-    "post_install": [
-        "\"$dir\\install-context.reg\""
     ],
     "bin": "notepad++.exe",
     "shortcuts": [
