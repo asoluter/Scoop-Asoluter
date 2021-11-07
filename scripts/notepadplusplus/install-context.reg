@@ -1,19 +1,19 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &Notepad++]
-@="Open with &Notepad++"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Edit with &Notepad++]
+@="Edit with &Notepad++"
 "Icon"="$npp"
-[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &Notepad++\command]
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Edit with &Notepad++\command]
 @="\"$npp\" \"%1\""
 
-[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &Notepad++]
-@="Open with &Notepad++"
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Edit with &Notepad++]
+@="Edit with &Notepad++"
 "Icon"="$npp"
-[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &Notepad++\command]
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Edit with &Notepad++\command]
 @="\"$npp\" \"%1\""
 
-[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &Notepad++]
-@="Open with &Notepad++"
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Edit with &Notepad++]
+@="Edit with &Notepad++"
 "Icon"="$npp"
-[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &Notepad++\command]
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Edit with &Notepad++\command]
 @="\"$npp\" \"%V\""
