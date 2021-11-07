@@ -47,6 +47,8 @@ param(
     [Switch] $SkipUpdated
 )
 
+if(!$env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
+
 . "$env:SCOOP_HOME\lib\manifest.ps1"
 . "$env:SCOOP_HOME\lib\json.ps1"
 . "$env:SCOOP_HOME\lib\unix.ps1"
