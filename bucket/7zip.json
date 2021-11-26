@@ -1,5 +1,5 @@
 {
-    "version": "21.04",
+    "version": "21.06",
     "description": "A multi-format file archiver with high compression ratios",
     "homepage": "https://www.7-zip.org/",
     "license": {
@@ -10,12 +10,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://7-zip.org/a/7z2104-x64.msi",
+                "https://7-zip.org/a/7z2106-x64.msi",
                 "https://raw.githubusercontent.com/asoluter/Scoop-Asoluter/main/scripts/7-zip/install-context.reg",
                 "https://raw.githubusercontent.com/asoluter/Scoop-Asoluter/main/scripts/7-zip/uninstall-context.reg"
             ],
             "hash": [
-                "bd3279095e3260b3857e8afac40f8c87d6e37df14b9a6dd9a01a7816b32fca73",
+                "3a18c7ed102778c1735def84d88c1abeec6919436aee4c4d852acaea90101dd7",
                 "358c8a2f87c4dc89c86ee4c72c71766856da146c0a8840001e6821fe5bb0c7ca",
                 "667ef7b5c7bfb6cdcc595042ac6c0cae802fbfd59fc601b22b533f6f1bcaf374"
             ]
