@@ -1,10 +1,10 @@
 {
-    "version": "1.0.1181-master",
+    "version": "1.0.1184-master",
     "description": "Portable console emulator for Windows. (Mini version)",
     "homepage": "https://cmder.net",
     "license": "MIT",
     "url": "https://ci.appveyor.com/api/projects/MartiUK/cmder/artifacts/build/cmder_mini.zip",
-    "hash": "624c1486c17a1499e2b4a554b1d623c1aa82be1db9488eca8ded950a72dcb187",
+    "hash": "ad5643c1e4a8cfae3b494c84237454b00c3342615525aba8ad3fd479892856f0",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\vendor\\conemu-maximus5\\ConEmu.xml\")) {",
         "    Copy-Item \"$dir\\vendor\\ConEmu.xml.default\" \"$dir\\vendor\\conemu-maximus5\\ConEmu.xml\"",
