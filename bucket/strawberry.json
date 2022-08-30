@@ -1,12 +1,12 @@
 {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "A music player and music collection organizer",
     "homepage": "https://www.strawbs.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/strawberrymusicplayer/strawberry/releases/download/1.0.7/StrawberrySetup-1.0.7-msvc-x64.exe#/dl.7z",
-            "hash": "3647dadb0f03cba43ec7651a5e8ee40a433c38e390ed1c24c0bb7bab934e0f2c"
+            "url": "https://github.com/strawberrymusicplayer/strawberry/releases/download/1.0.8/StrawberrySetup-1.0.8-msvc-x64.exe#/dl.7z",
+            "hash": "8bca0538e9935c40cb68d1554040f902531580c956d27ee82221cfbdd1dfd5b3"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
