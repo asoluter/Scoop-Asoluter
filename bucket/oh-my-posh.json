@@ -10,15 +10,15 @@
             "hash": "dd2810017b6b55e76f69b7537e890d8261d57f247491884fecd7145ae414220d"
         }
     },
-    "bin": "bin\\oh-my-posh.exe",
+    "bin": "oh-my-posh.exe",
     "persist": "themes",
-    "disable-checkver": {
-        "github": "https://github.com/JanDeDobbeleer/oh-my-posh3"
+    "checkver": {
+        "github": "https://github.com/JanDeDobbeleer/oh-my-posh"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-amd64.7z"
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-amd64.exe#/oh-my-posh.exe"
             }
         },
         "hash": {
