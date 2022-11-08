@@ -1,5 +1,5 @@
 {
-    "version": "8.4.6",
+    "version": "8.4.7",
     "description": "A free source code editor and Notepad replacement that supports several languages.",
     "homepage": "https://notepad-plus-plus.org",
     "license": "GPL-2.0-only",
@@ -7,12 +7,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.6/npp.8.4.6.portable.x64.zip",
+                "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.7/npp.8.4.7.portable.x64.zip",
                 "https://raw.githubusercontent.com/asoluter/Scoop-Asoluter/main/scripts/notepadplusplus/install-context.reg",
                 "https://raw.githubusercontent.com/asoluter/Scoop-Asoluter/main/scripts/notepadplusplus/uninstall-context.reg"
             ],
             "hash": [
-                "6939b2671b9be0b88fc560be9f6483e0cc8ce546883c03ca9c82b12252bbbb25",
+                "4fa63354348015915df3a42b6750f676669a2743056daffd3b9358706c112000",
                 "f26c2ae2b18ed76ae67ada468102be3eeec5ba9410355939d7aca056de7bfff2",
                 "7a6d400e013e51662ac0420acd9a2d65b28a42e60e7b61bd92a7df23a0f1beac"
             ]
