@@ -21,10 +21,24 @@
     ],
     "persist": "GitExtensions.settings",
     "checkver": {
-        "github": "https://github.com/gitextensions/gitextensions",
-        "regex": "/GitExtensions-Portable-([\\d.]+)-(?<commit>[\\w]+)\\.zip"
+        "script": [
+            "$url = 'https://github.com/gitextensions/gitextensions/releases/latest'",
+            "$cont = (Invoke-WebRequest $url).Content",
+            "$r = 'tag/v([\\d.]+)'",
+            "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
+            "$short_version = $matches[1]",
+            "",
+            "$assetUrl = \"https://github.com/gitextensions/gitextensions/releases/expanded_assets/v$short_version\"",
+            "$assetCont = (Invoke-WebRequest $assetUrl).Content",
+            "$r = \"GitExtensions-Portable-([\\d.]+)-([\\w]+)\\.zip\"",
+            "if (!($assetCont -match $r)) { error \"Could not match $r in $url\"; continue }",
+            "$full_version = $matches[1]",
+            "$commit = $matches[2]",
+            "Write-Output $short_version $full_version $commit"
+        ],
+        "regex": "(?<Tag>[\\d.]+) ([\\d.]+) (?<Commit>[\\w]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/gitextensions/gitextensions/releases/download/v$matchHead/GitExtensions-Portable-$version-$matchCommit.zip"
+        "url": "https://github.com/gitextensions/gitextensions/releases/download/v$matchTag/GitExtensions-Portable-$version-$matchCommit.zip"
     }
 }
