@@ -18,7 +18,6 @@
     },
     "bin": "oh-my-posh.exe",
     "extract_to": [
-        "",
         "themes"
     ],
     "checkver": {
