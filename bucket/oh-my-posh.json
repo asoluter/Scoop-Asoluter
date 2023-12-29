@@ -9,7 +9,7 @@
             "url": [
                 "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.3.0/posh-windows-amd64.exe#/oh-my-posh.exe",
                 "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.3.0/themes.zip"
-            ]
+            ],
             "hash": [
                 "fc93f4fa5f1e599f747beb7a0acd3a1194b497fcae6379715346cacd96a4c5b4",
                 "f7ce39b072357e43c8640d8e9ee64b08c66f35596900044a01fe3568ad74e6bb"
