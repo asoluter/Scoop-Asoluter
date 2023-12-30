@@ -25,8 +25,6 @@
     An array of manifests, which should be updated all the time. (-ForceUpdate parameter to checkver)
 .PARAMETER SkipUpdated
     Updated manifests will not be shown.
-.PARAMETER ThrowError
-    Throw error as exception instead of just printing it.
 .EXAMPLE
     PS BUCKETROOT > .\bin\auto-pr.ps1 'someUsername/repository:branch' -Request
 .EXAMPLE
@@ -111,11 +109,11 @@ if ($Push) {
     execute "git push origin $OriginBranch"
 }
 
-. "$env:SCOOP_HOME\bin\checkver.ps1" -App $App -Dir $Dir -Update -SkipUpdated:$SkipUpdated -ThrowError:$ThrowError
+. "$env:SCOOP_HOME\bin\checkver.ps1" -App $App -Dir $Dir -Update -SkipUpdated:$SkipUpdated
 if ($SpecialSnowflakes) {
     Write-Host "Forcing update on our special snowflakes: $($SpecialSnowflakes -join ',')" -ForegroundColor DarkCyan
     $SpecialSnowflakes -split ',' | ForEach-Object {
-        . "$env:SCOOP_HOME\bin\checkver.ps1" $_ -Dir $Dir -ForceUpdate -ThrowError:$ThrowError
+        . "$env:SCOOP_HOME\bin\checkver.ps1" $_ -Dir $Dir -ForceUpdate
     }
 }
 
