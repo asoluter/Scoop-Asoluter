@@ -39,6 +39,6 @@
         "regex": "(?<Tag>[\\d.]+) ([\\d.]+) (?<Commit>[\\w]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/gitextensions/gitextensions/releases/download/v$matchTag/GitExtensions-Portable-$version-$matchCommit.zip"
+        "url": "https://github.com/gitextensions/gitextensions/releases/download/v$matchTag/GitExtensions-Portable-x64-$version-$matchCommit.zip"
     }
 }
