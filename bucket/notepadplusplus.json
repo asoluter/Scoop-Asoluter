@@ -75,9 +75,6 @@
             "arm64": {
                 "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.arm64.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/npp.$version.checksums.sha256"
         }
     }
 }
