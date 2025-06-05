@@ -1,5 +1,5 @@
 {
-    "version": "26.1.0",
+    "version": "26.3.0",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": "MIT",
@@ -7,12 +7,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v26.1.0/themes.zip",
-                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v26.1.0/posh-windows-amd64.exe#/oh-my-posh.exe"
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v26.3.0/themes.zip",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v26.3.0/posh-windows-amd64.exe#/oh-my-posh.exe"
             ],
             "hash": [
-                "97847f621cfa7a9ec5642385fa8a9c911011798677e4936beafeb8fac9c937c4",
-                "5dcda8dafb76550c0902fabb3ea0364cd9a39282005f74a6855b65d2d543f860"
+                "6ccf1cde0b1520fa23c58120f9335f722393a2e6bd388224b5b121c67a266765",
+                "e28241bee6a46c833ef1b718f6c1814094bb2922f952729c868c99bf6891d132"
             ]
         }
     },
