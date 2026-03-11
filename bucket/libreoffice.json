@@ -1,5 +1,5 @@
 {
-    "version": "25.8.6.1",
+    "version": "26.2.2.1",
     "description": "Powerful and free office suite, a successor to OpenOffice(.org).",
     "homepage": "https://libreoffice.org/",
     "license": "MPL-2.0",
@@ -9,12 +9,12 @@
     "notes": "If you are upgrading from portable version, you can migrate settings by copying \"$persist_dir\\Data\" to \"%AppData%\\LibreOffice\"",
     "architecture": {
         "64bit": {
-            "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/25.8.6.1/win/x86_64/LibreOffice_25.8.6.1_Win_x86-64.msi#/dl.msi_",
-            "hash": "744c6f2a4e70bcb124b108dc9f35767bcd696bc3c70f05643a68b8699eb123a9"
+            "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/26.2.2.1/win/x86_64/LibreOffice_26.2.2.1_Win_x86-64.msi#/dl.msi_",
+            "hash": "0c6cf8b967e7dd35b88d233fdd738564d4e5a348e1e3e06af2600e7c61c3a76f"
         },
         "arm64": {
-            "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/25.8.6.1/win/aarch64/LibreOffice_25.8.6.1_Win_aarch64.msi#/dl.msi_",
-            "hash": "a284367fc4c939cf6ca80c231456f5f3eac14ea3502aa4275be0129612eb0cfa"
+            "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/26.2.2.1/win/aarch64/LibreOffice_26.2.2.1_Win_aarch64.msi#/dl.msi_",
+            "hash": "74c74acccfc4cbc333453f38755c9e96fc1ca98e526ab112f75c52de12907009"
         }
     },
     "pre_install": [
